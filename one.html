@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    
+      <!-- Boostrap 4  -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <title>About</title>
+</head>
+<body>
+    <div class="container">
+       <div class="container" Style="background:linear-gradient(to left bottom, rgb(90, 9, 83), rgb(32, 5, 156),rgb(24, 240, 255)); border-radius: 30px; text-align: center; color: white;">
+           <h1> <br><br><br> About the quiz</h1>
+           <p style="font-size: 20px; color: aquamarine;"> <br>  There will be the 15 questions in the quize <br>you have to answer each questions
+              .when you answer </br>1st question then only second question will get open <br>otherwise not.
+              Each question have 2 Points<br>  means Total Points are 30. After solving <br> every questions You will
+              get your score card. <br> <br>
+           </p>
+
+           <button id="btn1" style="height:40px; width: 30%; margin: 20px; border-radius: 30px; background: linear-gradient(to right bottom,rgb(253, 13, 13),rgb(248, 3, 117),rgb(255, 0, 234)); color:white; font-size: 20px; border:none">Start</button>
+           <button id="btn2" style="height:40px; width: 30%; border-radius: 30px; background: linear-gradient(to right bottom,rgb(253, 13, 13),rgb(248, 3, 117),rgb(255, 0, 234)); color:white; font-size: 20px; border:none">Log Out</button> <br> <br> <br> <br> <br>
+      </div>
+   </div>
+
+    <script>
+        const btn=document.getElementById('btn1')
+        btn.addEventListener('click',(e)=>{
+            location.href="two.html"
+        })
+
+        const btn2=document.getElementById('btn2')
+        btn2.addEventListener('click',(e)=>{
+            location.href="index.html"
+        })
+    </script>
+</body>
+</html>
