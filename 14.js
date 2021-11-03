@@ -21,6 +21,7 @@ btn.addEventListener('click',(e)=>{
     if(cb3.checked)
     {
         location.href="15.html"
+
     }
     
 })
