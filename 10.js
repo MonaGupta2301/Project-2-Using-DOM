@@ -7,6 +7,7 @@ btn.addEventListener('click',(e)=>{
     const cb2= document.getElementById('c3')
     const cb3= document.getElementById('c4')
     if(cb.checked)
+
     {
         location.href='oop!.html'
     }
