@@ -22,7 +22,6 @@ btn.addEventListener('click',(e)=>{
     {
         location.href='11.html'
     }
-    
 })
 const btn1=document.getElementById('input3')
 btn1.addEventListener('click',(e)=>{
